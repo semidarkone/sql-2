@@ -1,0 +1,20 @@
+CREATE TABLE Grocery (name text, section text, quantity integer, price integer);
+INSERT into Grocery values("banana"," fruit"," 47"," .25");
+INSERT into Grocery values("apple","fruit","59", ".75");
+INSERT into Grocery values("pizza","frozen","25","4.50");
+INSERT into Grocery values("almond milk", "dariy", "10","4.25");
+INSERT into Grocery values("pineapple","fruit","15","3.00");
+INSERT into Grocery values("oat milk", "dariy", "12", "4.25");
+INSERT into Grocery values("ice cream strawberry","frozen", "15", "5.00");
+INSERT into Grocery values("ice cream banana", "frozen", "15", "5.00");
+INSERT into Grocery values("pineapple chunks","canned fruit","28","1.45");
+INSERT into Grocery values("ramen","noodle","50",".11");
+INSERT into Grocery values("greenbeans","vegetable","32","1.25");
+INSERT into Grocery values("mixed fruit cup", "canned fruit","48","1.25");
+INSERT into Grocery values("oranges","fruit","66",".28");
+INSERT into Grocery values("mushrooms", "vegetable","49","4.25");
+INSERT into Grocery values("mangos","fruit","34","1.25");
+
+
+SELECT * FROM Grocery where price order by price;
+SELECT * FROM Grocery;
